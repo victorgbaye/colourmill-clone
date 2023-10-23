@@ -1,0 +1,35 @@
+.FreeShipingContainer{
+    // text-align: center;
+    background-color: #53CAEC;
+    width: 100vw;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    P{
+        color: #ffff;
+    }
+}
+.navigstionFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    padding: 0 20px;
+    // border: 1px solid blue;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    // border: 1px solid red;
+}
+
+.headerIcons{
+    width: 160px;
+    height: 34px;
+    border: 1px solid red;
+}
