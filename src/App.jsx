@@ -1,7 +1,9 @@
 // import { useState } from 'react'
 
 import './App.css'
+import DiscoverCollections from './components/discoverCollections/DiscoverCollections'
 import Navigation from './components/navigation/Navigation'
+import Tab from './components/tabs/Tab'
 // import HeroImage from './assets/images/Colour_Mill_Web_Banner.png'; // Import the image file
 function App() {
   // const [count, setCount] = useState(0)
@@ -66,8 +68,12 @@ function App() {
           </h2>
         </div>
       </section>
-      <section>
-        <p>hello world</p>
+      <section className='subSection2'>
+        <Tab/>
+      </section>
+      <section className='subSection3'>
+      <p className="subSection3headerText">DISCOVER OUR COLLECTIONS</p>
+        <DiscoverCollections/>
       </section>
     </>
   )

@@ -1,0 +1,24 @@
+.tabs-flex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 141px;
+    border-top: 1px solid black;
+}
+
+.tab{
+    font-size: 50px;
+    letter-spacing: -.03em;
+    position: relative;
+    color: rgb(105, 104, 105);
+}
+
+.tab span{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    margin-left: 12px;
+}
+.active{
+    color: black;
+}

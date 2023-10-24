@@ -1,0 +1,30 @@
+.DCcontainer{
+    display: flex;
+    height: 733px;
+}
+
+.DCitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 480px;
+    max-height: 733px;
+    border: .5px solid black;
+}
+.DCitem h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -.03em;
+    margin-top: 30px;
+}
+.DCitem p{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.DCitem:hover{
+    background-color: #53CAEC;
+}

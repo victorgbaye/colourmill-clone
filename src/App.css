@@ -80,12 +80,13 @@ left: 20px;
 /* section */
 .subSection1Container{
   background:  #aadb1e66;
+  /* border: 1px solid red; */
   
 
 }
 .subSection1{
-  border-bottom: 1px solid black;
   padding: 45px 25px;
+  /* border-bottom: 1px solid black; */
 }
 
 .subSection1 h2{
@@ -94,5 +95,36 @@ left: 20px;
   line-height: 58px;
   text-align: left;
   /* width: 800px; */
+
+}
+
+
+
+/* subSection2 */
+
+.subSection2{
+  background:  #aadb1e66;
+  padding: 45px 25px;
+}
+
+/* subSection3 */
+
+.subSection3{
+  /* border: 1px solid red; */
+  height: 733px;
+  position: relative;
+  
+}
+.subSection3 .subSection3headerText{
+  /* border: 1px solid red; */
+  height: 733px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 30px;
+  font-size: 15px;
+  letter-spacing: -.03em;
+  line-height: 17px;
+  font-weight: 700;
 
 }
