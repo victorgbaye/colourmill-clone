@@ -128,3 +128,115 @@ left: 20px;
   font-weight: 700;
 
 }
+
+
+/* ssubSection5 */
+.subSection5{
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.subSection5Header{
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+}
+.subSection5Header h2{
+  text-align: left;
+  font-size: 40px;
+  letter-spacing: -.03em;
+  font-weight: 500;
+}
+.subSection5HeaderSocials{
+  display: flex;
+  gap: 20px;
+}
+
+.subSection5HeaderSocials p{
+  font-size: 18px;
+}
+.subSection5HeaderSocialsImage{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.subSection5HeaderSocialsImageItem{
+  width: 213px;
+  height: 213px;
+}
+.subSection5HeaderSocialsImageItem img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.subSection7{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 40px;
+}
+.subSection7SignupSec h2{
+  font-size: 40px;
+  letter-spacing: -.03em;
+  line-height: 1;
+  font-weight: 500;
+}
+.subSection7SignupSecInput{
+  display: flex;
+  align-items: center;
+  height: 68px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.subSection7SignupSecInput input{
+  border: none;
+  outline: none; /* Remove outline */
+  background: none; /* Remove background */
+  width: 233px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+.subSection7SignupSecInput input::placeholder {
+  color: #999; /* Set the placeholder color to gray (#999) */
+}
+.subSection7ULContainer{
+  display: flex;
+}
+.subSection7UL{
+  list-style: none;
+  width: 216.66px;
+  /* border: 1px solid red; */
+
+}
+.subSection7UL > :first-child {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.color-text{
+  /* max-height: 260px; */
+  border: 1px solid red;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+
+
+}
+@keyframes colorChange {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: green; }
+}
+.color-text:hover span{
+  animation: colorChange 1s infinite;
+}
+.color-text > span{
+  /* letter-spacing: -3rem;
+  line-height: -200px; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
