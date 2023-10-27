@@ -116,26 +116,26 @@ function App() {
         <ul className='subSection7UL'>
           <li>SHOP</li>
           <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
+          <li>Aqua Blends</li>
+          <li>Packs</li>
+          <li>Buttercream</li>
+          <li>Lustre Blends</li>
+          <li>Glitz Blends</li>
+          <li>Decorating</li>
         </ul>
         <ul className='subSection7UL'>
-        <li>SHOP</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
+        <li>COMPANY</li>
+          <li>Our Story</li>
+          <li>FAQs</li>
+          <li>Contact Us</li>
+          <li>Shipping</li>
+          <li>Returns</li>
         </ul>
         <ul className='subSection7UL'>
-          <li>SHOP</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
-          <li>Oil Blends</li>
+          <li>RESOURCES</li>
+          <li>The Mill</li>
+          <li>Wholesale/Trade</li>
+          <li>Store Locator</li>
         </ul>
        </div>
       </section>
